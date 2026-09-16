@@ -6,8 +6,8 @@ A collection of reusable skills for AI coding assistants working on frontend des
 
 | Skill | Use it for |
 | --- | --- |
-| [Frontend Design Craft](frontend-design-craft/SKILL.md) | Designing and building interfaces with a clear visual direction, thoughtful typography, color, layout, and motion, plus CSS/React implementation guidance. |
-| [UX Practice](ux-practice/ux-practice/SKILL.md) | Heuristic evaluations, design critiques, usability test plans, accessibility audits, information architecture, personas, and journey maps. |
+| [Frontend Design Craft](skills/frontend-design-craft/SKILL.md) | Designing and building interfaces with a clear visual direction, thoughtful typography, color, layout, and motion, plus CSS/React implementation guidance. |
+| [UX Practice](skills/ux-practice/SKILL.md) | Heuristic evaluations, design critiques, usability test plans, accessibility audits, information architecture, personas, and journey maps. |
 
 ## Getting started
 
@@ -16,30 +16,31 @@ A collection of reusable skills for AI coding assistants working on frontend des
 3. Keep the `references/` directory alongside `SKILL.md`; the entry point explains which guides to load for each task.
 4. Describe your task, audience, constraints, and desired outcome.
 
-The skill directories to copy are `frontend-design-craft/` and `ux-practice/ux-practice/`. The outer `ux-practice/` directory is a container.
+The skill directories to copy are `skills/frontend-design-craft/` and `skills/ux-practice/`.
 
 ### Example prompts
 
 For frontend design:
 
-> Use frontend-design-craft/SKILL.md to build a responsive landing page for a neighborhood bakery. The main goal is to drive cake preorders, and the visual direction should feel warm and playful.
+> Use skills/frontend-design-craft/SKILL.md to build a responsive landing page for a neighborhood bakery. The main goal is to drive cake preorders, and the visual direction should feel warm and playful.
 
 For UX review:
 
-> Use ux-practice/ux-practice/SKILL.md to review this checkout flow for first-time mobile shoppers. Rank the findings by severity and suggest concrete fixes and ways to validate them.
+> Use skills/ux-practice/SKILL.md to review this checkout flow for first-time mobile shoppers. Rank the findings by severity and suggest concrete fixes and ways to validate them.
 
 ## Repository structure
 
 ```text
-frontend-design-craft/
-├── SKILL.md
-└── references/
-    ├── direction-and-planning.md
-    ├── typography.md
-    ├── color-and-layout.md
-    ├── motion.md
-    └── implementation.md
-ux-practice/
+README.md
+skills/
+├── frontend-design-craft/
+│   ├── SKILL.md
+│   └── references/
+│       ├── direction-and-planning.md
+│       ├── typography.md
+│       ├── color-and-layout.md
+│       ├── motion.md
+│       └── implementation.md
 └── ux-practice/
     ├── SKILL.md
     └── references/
